@@ -8,7 +8,8 @@
 # Site Settings
 title                    : "Changliang Zhou"
 description              : "Ph.D. student at SUSTech working on AI for Optimization, specifically generalizable neural routing solvers."
-repository               : "changliang5811/changliang.github.io"
+repository               : "changliang5811/changliang5811.github.io"
+url                      : "https://changliang5811.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
