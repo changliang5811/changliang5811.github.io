@@ -13,11 +13,11 @@ redirect_from:
 {% else %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
-{% assign gsShieldUrl = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
 
-<h1>About Me</h1>
+<h1>&#128075; About Me</h1>
 
 I am a Ph.D. student at Southern University of Science and Technology (SUSTech), supervised by <a class="external-link" href="https://scholar.google.com/citations?user=r9ezy2gAAAAJ&hl=en">Zhenkun Wang</a>, working on AI for Optimization, specifically Neural Combinatorial Optimization (NCO). 
 
@@ -25,29 +25,29 @@ I am a Ph.D. student at Southern University of Science and Technology (SUSTech),
 
 My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a neural routing solver scalable to **10-million-node** instances; and **(3) URS**, a generalist neural solver covering **over 100** VRP variants.
 
-As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**, with <a class="external-link" href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'>Google Scholar citations <strong><span id='total_cit'>256</span></strong></a> <a href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ gsShieldUrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**. For more details, please see my <a class="external-link" href="cv/zhoucl_CV_English.pdf">English CV</a> and <a class="external-link" href="cv/zhoucl_CV_Chinese.pdf">Chinese CV</a>.
 
-For more details, please see my <a class="external-link" href="cv/zhoucl_CV_English.pdf">English CV</a> and <a class="external-link" href="cv/zhoucl_CV_Chinese.pdf">Chinese CV</a>.
+
+<!-- As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**, with <a class="external-link" href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'>Google Scholar citations <strong><span id='total_cit'>256</span></strong></a> <a href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ gsShieldUrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 <div class="notice--info opportunity-notice">
   <strong>&#x1F4E2; I'm on the job market! Let's connect.</strong> &#x1F52D; I am approaching graduation and actively seeking postdoctoral positions or related industry research roles. 
-  
+  <br>
   &#x1F91D; If my work aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
 </div>
 
 <span class='anchor' id='news'></span>
 
-<h1>News</h1>
-
-- 🎉 *05/2026*: URS appeared at the 43rd International Conference on Machine Learning (ICML).
+<h1>&#128293; News</h1>
 - 🎉 *05/2026*: L2R appeared at the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD).
+- 🎉 *05/2026*: URS appeared at the 43rd International Conference on Machine Learning (ICML).
 - 🎉 *03/2026*: ICAM appeared in IEEE Transactions on Intelligent Transportation Systems (T-ITS).
 <!-- - *2025*: 🚀 Started leading EasyCO, a learning-driven platform for combinatorial optimization. -->
 - 🎓 *09/2022*: Began Ph.D. study at Southern University of Science and Technology.
 
 <span class='anchor' id='research-highlights'></span>
 
-<h1>Research Highlights</h1>
+<h1>&#127919; Research Highlights</h1>
 
 <div class="highlight-paper-card">
   <div class="highlight-paper-image">
@@ -111,7 +111,7 @@ In Development | Lead
 
 <span class='anchor' id='publications'></span>
 
-<h1>Publications</h1>
+<h1>&#128221; Publications</h1>
 
 ## Arxiv Preprint
 
@@ -197,21 +197,21 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 
 <span class='anchor' id='education'></span>
 
-<h1>Education</h1>
+<h1>&#127891; Education</h1>
 
 - *Sep. 2022 - Present*, **Southern University of Science and Technology**, Ph.D. student in Intelligent Manufacturing and Robotics, School of Automation and Intelligent Manufacturing.
 - *Sep. 2019 - Jun. 2022*, **Qingdao University**, M.Sc. degree in Software Engineering, College of Computer Science and Technology.
 
 <span class='anchor' id='service-and-honors'></span>
 
-<h1>Service and Honors</h1>
+<h1>&#127942; Service and Honors</h1>
 
 - **Reviewer**: ICLR 2026; NeurIPS 2026.
 - **University Honor**: Outstanding Postgraduate Student, Southern University of Science and Technology, 2022-2023.
 
 <span class='anchor' id='teaching'></span>
 
-<h1>Teaching</h1>
+<h1>&#128104;&#8205;&#127979; Teaching</h1>
 
 - **Teaching Assistant**, **SDM374 Machine Learning System Design**, Southern University of Science and Technology (Fall 2023), Sep. 2023 - Jan. 2024.
 - **Teaching Assistant**, **SDM374 Machine Learning System Design**, Southern University of Science and Technology (Fall 2022), Sep. 2022 - Jan. 2023.
