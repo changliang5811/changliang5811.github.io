@@ -31,7 +31,7 @@ As of June 15, 2026, I have published **11 papers**, including **4 first/co-firs
 <!-- As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**, with <a class="external-link" href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'>Google Scholar citations <strong><span id='total_cit'>256</span></strong></a> <a href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ gsShieldUrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 <div class="notice--info opportunity-notice">
-  <strong>&#x1F4E2; I'm on the job market! Let's connect.</strong> &#x1F52D; I am approaching graduation and actively seeking postdoctoral positions or related industry research roles. 
+  <strong>&#x1F4E2; I'm on the job market! Let's connect.</strong> &#x1F52D; Expecting to graduate in December 2026, I am actively seeking postdoctoral opportunities or industry research roles. 
   <br>
   &#x1F91D; If my work aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
 </div>
