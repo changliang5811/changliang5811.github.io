@@ -19,13 +19,13 @@ redirect_from:
 
 <h1>&#128075; About Me</h1>
 
-I am a Ph.D. student at Southern University of Science and Technology (SUSTech), supervised by <a class="external-link" href="https://scholar.google.com/citations?user=r9ezy2gAAAAJ&hl=en">Zhenkun Wang</a>, working on AI for Optimization, specifically Neural Combinatorial Optimization (NCO). 
+I am a Ph.D. student at the Southern University of Science and Technology (SUSTech), supervised by <a class="external-link" href="https://scholar.google.com/citations?user=r9ezy2gAAAAJ&hl=en">Zhenkun Wang</a>, working on AI for Optimization, specifically Neural Combinatorial Optimization (NCO). 
 
-**Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve discrete optimization problems such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions and complex problems with diverse constraints.
+**Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions and complex problems with diverse constraints.
 
-My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a neural routing solver scalable to **10-million-node** instances; and **(3) URS**, a generalist neural solver covering **over 100** VRP variants.
+My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization** and **domain foundation model construction**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a learning-based search space reduction framework scalable to **10-million-node** instances; and **(3) URS**, a powerful domain foundation model capable of solving **100+** VRP variants.
 
-As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**. For more details, please see my <a class="external-link" href="cv/zhoucl_CV_English.pdf">English CV</a> and <a class="external-link" href="cv/zhoucl_CV_Chinese.pdf">Chinese CV</a>.
+As of June 30, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**. For more details, please see my <a class="external-link" href="cv/zhoucl_CV_English.pdf">English CV</a> and <a class="external-link" href="cv/zhoucl_CV_Chinese.pdf">Chinese CV</a>.
 
 
 <!-- As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**, with <a class="external-link" href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'>Google Scholar citations <strong><span id='total_cit'>256</span></strong></a> <a href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ gsShieldUrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
@@ -33,7 +33,7 @@ As of June 15, 2026, I have published **11 papers**, including **4 first/co-firs
 <div class="notice--info opportunity-notice">
   <strong>&#x1F4E2; I'm on the job market! Let's connect.</strong> &#x1F52D; Expecting to graduate in Dec. 2026, I am actively seeking postdoctoral opportunities or industry research roles. 
   <br>
-  &#x1F91D; If my work aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
+  &#x1F91D; I am currently focusing on building domain foundation models capable of solving a wide range of COPs. It is an intriguing and formidable challenge. If my research aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
 </div>
 
 <span class='anchor' id='news'></span>
@@ -62,7 +62,7 @@ As of June 15, 2026, I have published **11 papers**, including **4 first/co-firs
     </p>
     <ul>
       <li>Introduced a lightweight instance-conditioned adaptation function and a low-complexity attention mechanism to adjust policies using instance-specific information.</li>
-      <li>Validated the method on four representative routing problems, TSP, CVRP, ATSP, and CVRPTW, improving generalization while preserving fast inference.</li>
+      <li>Validated the method on four representative routing problems (TSP, CVRP, ATSP \& CVRPTW), improving generalization while preserving <strong>low inference time (at the second level)</strong>.</li>
     </ul>
   </div>
 </div>
@@ -80,7 +80,7 @@ As of June 15, 2026, I have published **11 papers**, including **4 first/co-firs
     </p>
     <ul>
       <li>Proposed the first learning-based framework to dynamically prune the search space by adaptively prioritizing nodes based on problem-specific features and states.</li>
-      <li>Developed <strong>the first</strong> neural solver for <strong>10-million-node</strong> VRP instances. Trained only on <strong>100-node</strong> instances, it generalizes to TSP10M in a zero-shot manner with a 5.05% gap.</li>
+      <li>Developed <strong>the first</strong> specialist neural model for <strong>10-million-node</strong> VRP instances. Trained only on <strong>100-node</strong> instances, it generalizes to TSP10M in a zero-shot manner with a 5.05% gap.</li>
     </ul>
   </div>
 </div>
@@ -90,7 +90,7 @@ As of June 15, 2026, I have published **11 papers**, including **4 first/co-firs
     <img src="images/papers/URS.png" alt="URS overview">
   </div>
   <div class="highlight-paper-body">
-    <h3>URS: A Unified Neural Routing Solver for Cross-Problem Zero-Shot Generalization</h3>
+    <h3>URS: A Powerful Domain Foundation Model for Cross-Problem Zero-Shot Generalization</h3>
     <p><span class="venue-badge">ICML 2026</span></p>
     <p class="badge-row">
       <a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2509.23413">&#128196; Paper</a>
@@ -98,7 +98,7 @@ As of June 15, 2026, I have published **11 papers**, including **4 first/co-firs
     </p>
     <ul>
       <li>Proposed a unified data representation that eliminates the need for problem enumeration by projecting diverse VRP variants into a unified feature space.</li>
-      <li>Developed <strong>the first</strong> neural solver that efficiently solves <strong>over 100</strong> VRP variants with a single model without retraining or fine-tuning, while scaling to <strong>7,000-node</strong> instances.</li>
+      <li>Developed <strong>the first</strong> domain foundation model that efficiently solves <strong>over 100</strong> VRP variants with a single model without retraining or fine-tuning, while scaling to <strong>7,000-node</strong> instances.</li>
     </ul>
   </div>
 </div>
@@ -200,7 +200,8 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 <h1>&#127891; Education</h1>
 
 - *Sep. 2022 - Present*, **Southern University of Science and Technology**, Ph.D. student in Intelligent Manufacturing and Robotics, School of Automation and Intelligent Manufacturing.
-- *Sep. 2019 - Jun. 2022*, **Qingdao University**, M.Sc. degree in Software Engineering, College of Computer Science and Technology.
+- *Sep. 2019 - Jun. 2022*, **Qingdao University**, M.Eng. degree in Software Engineering, College of Computer Science and Technology.
+- *Sep. 2014 - Jun. 2018*, **Linyi University**, B.Eng. degree in Software Engineering, School of Information Science and Engineering.
 
 <span class='anchor' id='service-and-honors'></span>
 
