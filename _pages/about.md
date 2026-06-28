@@ -21,7 +21,7 @@ redirect_from:
 
 I am a Ph.D. student at the Southern University of Science and Technology (SUSTech), supervised by <a class="external-link" href="https://scholar.google.com/citations?user=r9ezy2gAAAAJ&hl=en">Zhenkun Wang</a>, working on AI for Optimization, specifically Neural Combinatorial Optimization (NCO). 
 
-**Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions and complex problems with diverse constraints.
+**Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions, and complex problems with diverse constraints.
 
 My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization** and **domain foundation model construction**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a learning-based search space reduction framework scalable to **10-million-node** instances; and **(3) URS**, a powerful domain foundation model capable of solving **100+** VRP variants.
 
@@ -33,7 +33,7 @@ As of June 30, 2026, I have published **11 papers**, including **4 first/co-firs
 <div class="notice--info opportunity-notice">
   <strong>&#x1F4E2; I'm on the job market! Let's connect.</strong> &#x1F52D; Expecting to graduate in Dec. 2026, I am actively seeking postdoctoral opportunities or industry research roles. 
   <br>
-  &#x1F91D; I am currently focusing on building domain foundation models capable of solving a wide range of COPs. It is an intriguing and formidable challenge. If my research aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
+  &#x1F91D; I am currently focusing on developing domain foundation models capable of solving a wide range of NP-hard COPs. It is an intriguing and formidable challenge. If my research aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
 </div>
 
 <span class='anchor' id='news'></span>
