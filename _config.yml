@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Changliang Zhou"
-description              : "Ph.D. student at SUSTech working on AI for Optimization, currently focusing on building domain foundation models capable of solving a wide range of COPs."
+description              : "Ph.D. student at SUSTech working on AI for Optimization, currently focusing on developing domain foundation models capable of solving a wide range of NP-hard COPs."
 repository               : "changliang5811/changliang5811.github.io"
 url                      : "https://changliang5811.github.io"
 google_scholar_stats_use_cdn : true
