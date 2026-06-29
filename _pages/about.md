@@ -19,9 +19,9 @@ redirect_from:
 
 <h1>&#128075; About Me</h1>
 
-I am a Ph.D. student at the Southern University of Science and Technology (SUSTech), supervised by <a class="external-link" href="https://scholar.google.com/citations?user=r9ezy2gAAAAJ&hl=en">Zhenkun Wang</a>, working on AI for Optimization, specifically Neural Combinatorial Optimization (NCO). 
+I am a Ph.D. student at the Southern University of Science and Technology (SUSTech), supervised by <a class="external-link" href="https://scholar.google.com/citations?user=r9ezy2gAAAAJ&hl=en">Zhenkun Wang</a> and <a class="external-link" href="https://xi-l.github.io/">Xi Lin</a>. My research focuses on **AI for Optimization**, specifically **Learning to Optimize**, also known as **Neural Combinatorial Optimization**. This paradigm leverages neural networks to solve complex combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. By learning policies from data rather than relying on manual design, we aim to develop fast solvers that generalize across problem scales, distributions, and diverse problems. It is a highly active and fascinating field at the intersection of AI and Operations Research, presenting both great potential and exciting challenges.
 
-**Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions, and complex problems with diverse constraints.
+<!-- **Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions, and complex problems with diverse constraints. It is a hot topic for both AI and Operations Research, quite interesting yet challenging.-->
 
 My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization** and **domain foundation model construction**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a learning-based search space reduction framework scalable to **10-million-node** instances; and **(3) URS**, a powerful domain foundation model capable of solving **100+** VRP variants.
 
@@ -33,7 +33,7 @@ As of June 30, 2026, I have published **11 papers**, including **4 first/co-firs
 <div class="notice--info opportunity-notice">
   <strong>&#x1F4E2; I'm on the job market! Let's connect.</strong> &#x1F52D; Expecting to graduate in Dec. 2026, I am actively seeking postdoctoral opportunities or industry research roles. 
   <br>
-  &#x1F91D; I am currently focusing on developing domain foundation models capable of solving a wide range of NP-hard COPs. It is an intriguing and formidable challenge. If my research aligns with your interests, please feel free to contact me: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
+  &#x1F91D; I am currently focusing on developing domain foundation models capable of solving a wide range of NP-hard COPs. It is an intriguing and formidable challenge. If my research aligns with your interests, please feel free to contact me via email: <a class="external-link" href="mailto:zhoucl2022@mail.sustech.edu.cn">zhoucl2022@mail.sustech.edu.cn</a>.
 </div>
 
 <span class='anchor' id='news'></span>
