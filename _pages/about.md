@@ -23,9 +23,10 @@ I am a Ph.D. student at the Southern University of Science and Technology (SUSTe
 
 <!-- **Neural Combinatorial Optimization (NCO)** studies how neural networks can learn to solve combinatorial optimization problems (COPs) such as routing, scheduling, and assignment. Instead of designing every search rule by hand, NCO learns policies from data and interaction, aiming to produce fast solvers that can generalize across problem scales, distributions, and complex problems with diverse constraints. It is a hot topic for both AI and Operations Research, quite interesting yet challenging.-->
 
-My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization** and **domain foundation model construction**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a learning-based search space reduction framework scalable to **10-million-node** instances; and **(3) URS**, a powerful domain foundation model capable of solving **100+** VRP variants.
+My research focuses on deep reinforcement learning for vehicle routing problems (VRPs), with an emphasis on **out-of-distribution zero-shot generalization** and **domain foundation model construction**. My recent first/co-first-author work includes the following: **(1) ICAM**, an instance-conditioned adaptation model for generalization to **thousand-scale** VRP instances; **(2) L2R**, a learning-based search space reduction framework scalable to **10-million-node** instances; **(3) URS**, a powerful domain foundation model capable of solving **100+** VRP variants; and **(4) SPACE**, a generalist neural solver that unifies symmetric and asymmetric routing problems through coordinate-independent representations.
 
-As of June 30, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**. For more details, please see my <a class="external-link" href="cv/zhoucl_CV_English.pdf">English CV</a> and <a class="external-link" href="cv/zhoucl_CV_Chinese.pdf">Chinese CV</a>.
+As of September 2026, I have **9 accepted papers**, including **5 first/co-first-author papers**. My work has appeared in venues including **NeurIPS**, **ICML**, **KDD**, and **IEEE T-ITS**.
+<!-- For more details, please see my <a class="external-link" href="cv/zhoucl_CV_English.pdf">English CV</a> and <a class="external-link" href="cv/zhoucl_CV_Chinese.pdf">Chinese CV</a>. -->
 
 
 <!-- As of June 15, 2026, I have published **11 papers**, including **4 first/co-first-author papers**. My work has appeared in venues including **ICML**, **KDD**, and **IEEE T-ITS**, with <a class="external-link" href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'>Google Scholar citations <strong><span id='total_cit'>256</span></strong></a> <a href='https://scholar.google.com/citations?user=9IzIC7kAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ gsShieldUrl | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
@@ -39,6 +40,7 @@ As of June 30, 2026, I have published **11 papers**, including **4 first/co-firs
 <span class='anchor' id='news'></span>
 
 <h1>&#128293; News</h1>
+- 🎉 *09/2026*: SPACE was accepted to NeurIPS 2026.
 - 🎉 *05/2026*: L2R appeared at the 32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD).
 - 🎉 *05/2026*: URS appeared at the 43rd International Conference on Machine Learning (ICML).
 - 🎉 *03/2026*: ICAM appeared in IEEE Transactions on Intelligent Transportation Systems (T-ITS).
@@ -103,6 +105,23 @@ As of June 30, 2026, I have published **11 papers**, including **4 first/co-firs
   </div>
 </div>
 
+<div class="highlight-paper-card">
+  <div class="highlight-paper-image">
+    <img src="images/papers/SPACE.png" alt="SPACE framework overview">
+  </div>
+  <div class="highlight-paper-body">
+    <h3>SPACE: Unifying Symmetric and Asymmetric Routing Problems for Generalist Neural Solver</h3>
+    <p><span class="venue-badge">NeurIPS 2026</span></p>
+    <p class="badge-row">
+      <a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2605.24484">&#128196; Paper</a>
+    </p>
+    <ul>
+      <li>Combined <strong>bidirectional Fréchet representations</strong> and <strong>weight-decomposed adaptive decoding</strong> for zero-shot generalization.</li>
+      <li>Achieved <strong class="highlight-emphasis">coordinate-independent unified feature encoding</strong>, improving asymmetric routing while remaining competitive on symmetric problems.</li>
+    </ul>
+  </div>
+</div>
+
 <!-- **EasyCO: A Learning-Driven Platform for Combinatorial Optimization**  
 In Development | Lead
 
@@ -123,12 +142,6 @@ In Development | Lead
 </li>
 
 <li class="publication-item" markdown="1">
-<u>Rongsheng Chen</u>, **Changliang Zhou**, Canhong Yu, Yuanyao Chen, Yu Zhou, Zhuo Chen, Zhenkun Wang<sup>&dagger;</sup>. SPACE: Unifying Symmetric and Asymmetric Routing Problems for Generalist Neural Solver. *arXiv preprint arXiv:2605.24484*, 2026.
-
-<p class="badge-row"><a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2605.24484">&#128196; Paper</a></p>
-</li>
-
-<li class="publication-item" markdown="1">
 Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;</sup>, Xinyan Liang, Zhichao Lu, Jianyong Sun, Yuhua Qian, Qingfu Zhang. Survey on Neural Routing Solvers. *arXiv preprint arXiv:2602.21761*, 2026.
 
 <p class="badge-row"><a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2602.21761">&#128196; Paper</a></p>
@@ -138,6 +151,12 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 ## Accepted Conference Papers:
 
 <ol class="publication-list">
+<li class="publication-item" markdown="1">
+<span class="venue-badge">NeurIPS 2026</span> <u>Rongsheng Chen</u>\*, **Changliang Zhou**\*, Canhong Yu, Yuanyao Chen, Yu Zhou, Zhuo Chen, Zhenkun Wang<sup>&dagger;</sup>. SPACE: Unifying Symmetric and Asymmetric Routing Problems for Generalist Neural Solver. *Advances in Neural Information Processing Systems* (**NeurIPS**), 2026.
+
+<p class="badge-row"><a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2605.24484">&#128196; Paper</a></p>
+</li>
+
 <li class="publication-item" markdown="1">
 <span class="venue-badge">ICML 2026</span> **Changliang Zhou**, Canhong Yu, Shunyu Yao, Xi Lin, Zhenkun Wang<sup>&dagger;</sup>, Yu Zhou, Qingfu Zhang. URS: A Unified Neural Routing Solver for Cross-Problem Zero-Shot Generalization. *43rd International Conference on Machine Learning* (**ICML**), 2026.
 
@@ -193,7 +212,26 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 
 \* Equal contribution. <sup>&dagger;</sup> Corresponding author. <u>xxxx</u> names indicate co-mentored students.
 
-<span>(Last updated May 2026.)</span>
+<span>(Last updated September 2026.)</span>
+
+<span class='anchor' id='open-source'></span>
+
+<h1>&#128736; Open Source Projects</h1>
+
+<div class="highlight-paper-card">
+  <div class="highlight-paper-body">
+    <h3>Awesome-NCO: A Structured Research Index for Neural Combinatorial Optimization</h3>
+    <p><em>2026–Present</em> · <strong>Creator &amp; Maintainer</strong></p>
+    <p class="badge-row">
+      <a class="readme-badge code-badge" href="https://github.com/CIAM-Group/awesome-nco">&#128187; Code</a>
+      <a class="readme-badge website-badge" href="https://ciam-group.github.io/awesome-nco/">&#127760; Website</a>
+    </p>
+    <ul>
+      <li>A searchable NCO knowledge base with <strong>structured paper notes, research timelines, and connections between related work</strong>.</li>
+      <li>Supports <strong>search and filtering</strong> by year, topic, author, and venue for efficient literature exploration.</li>
+    </ul>
+  </div>
+</div>
 
 <span class='anchor' id='education'></span>
 
@@ -207,7 +245,7 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 
 <h1>&#127942; Service and Honors</h1>
 
-- **Reviewer**: ICLR 2026; NeurIPS 2026.
+- **Reviewer**: ICLR 2026, 2027; NeurIPS 2026; IEEE T-ITS; TMLR; IEEE TNNLS.
 - **University Honor**: Outstanding Postgraduate Student, Southern University of Science and Technology, 2022-2023.
 
 <span class='anchor' id='teaching'></span>

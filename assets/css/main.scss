@@ -195,6 +195,10 @@ h1:before, .anchor:before {
 
 .highlight-paper-body {
     flex: 1;
+
+    .highlight-emphasis {
+        color: #224b8d;
+    }
 }
 
 .venue-badge {
@@ -238,7 +242,8 @@ h1:before, .anchor:before {
     background: #24292f;
 }
 
-.paper-badge {
+.paper-badge,
+.website-badge {
     background: #4aa3df;
 }
 
