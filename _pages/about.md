@@ -117,7 +117,24 @@ As of September 2026, I have **9 accepted papers**, including **5 first/co-first
     </p>
     <ul>
       <li>Combined <strong>bidirectional Fréchet representations</strong> and <strong>weight-decomposed adaptive decoding</strong> for zero-shot generalization.</li>
-      <li>Achieved <strong class="highlight-emphasis">coordinate-independent unified feature encoding</strong>, improving asymmetric routing while remaining competitive on symmetric problems.</li>
+      <li>Achieved coordinate-independent unified feature encoding, improving asymmetric routing while remaining competitive on symmetric problems.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="highlight-paper-card">
+  <div class="highlight-paper-image">
+    <img src="images/papers/MiLoop.svg" alt="MiLoop framework overview">
+  </div>
+  <div class="highlight-paper-body">
+    <h3>MiLoop: Selective Memory Propagation for Neural Combinatorial Optimization</h3>
+    <p><span class="venue-badge">arXiv 2026</span></p>
+    <p class="badge-row">
+      <a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2610.01685">&#128196; Paper</a>
+    </p>
+    <ul>
+      <li>Selective memory propagation reuses and updates node representations across RL construction steps, enabling a shallow policy without external solution labels.</li>
+      <li>Evaluated on four combinatorial optimization problems, with tested instance sizes ranging from 100 to 10 million nodes.</li>
     </ul>
   </div>
 </div>
@@ -135,6 +152,18 @@ In Development | Lead
 ## Arxiv Preprint
 
 <ol class="publication-list">
+<li class="publication-item" markdown="1">
+<u>Zhuoliang Xie</u>, **Changliang Zhou**, Genghui Li, Zhenkun Wang<sup>&dagger;</sup>. Multi-Task Evolution for Zero-Shot Cross-Problem Generalization using LLMs. *arXiv preprint arXiv:2610.03316*, 2026.
+
+<p class="badge-row"><a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2610.03316">&#128196; Paper</a></p>
+</li>
+
+<li class="publication-item" markdown="1">
+**Changliang Zhou**\*, <u>Yuanyao Chen</u>\*, Rongsheng Chen, Zhiyun Lin, Zhenkun Wang<sup>&dagger;</sup>. MiLoop: Selective Memory Propagation for Neural Combinatorial Optimization. *arXiv preprint arXiv:2610.01685*, 2026.
+
+<p class="badge-row"><a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2610.01685">&#128196; Paper</a></p>
+</li>
+
 <li class="publication-item" markdown="1">
 <u>Canhong Yu</u>, **Changliang Zhou**, Rongsheng Chen, Zhenkun Wang<sup>&dagger;</sup>, Yu Zhou. Rethinking Constraint Awareness for Efficient State Embedding of Neural Routing Solver. *arXiv preprint arXiv:2605.10122*, 2026.
 
@@ -158,7 +187,7 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 </li>
 
 <li class="publication-item" markdown="1">
-<span class="venue-badge">ICML 2026</span> **Changliang Zhou**, Canhong Yu, Shunyu Yao, Xi Lin, Zhenkun Wang<sup>&dagger;</sup>, Yu Zhou, Qingfu Zhang. URS: A Unified Neural Routing Solver for Cross-Problem Zero-Shot Generalization. *43rd International Conference on Machine Learning* (**ICML**), 2026.
+<span class="venue-badge">ICML 2026</span> **Changliang Zhou**, <u>Canhong Yu </u>, Shunyu Yao, Xi Lin, Zhenkun Wang<sup>&dagger;</sup>, Yu Zhou, Qingfu Zhang. URS: A Unified Neural Routing Solver for Cross-Problem Zero-Shot Generalization. *43rd International Conference on Machine Learning* (**ICML**), 2026.
 
 <p class="badge-row"><a class="readme-badge paper-badge" href="https://arxiv.org/pdf/2509.23413">&#128196; Paper</a> <a class="readme-badge code-badge" href="https://github.com/CIAM-Group/URS">&#128187; Code</a></p>
 </li>
@@ -212,7 +241,7 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 
 \* Equal contribution. <sup>&dagger;</sup> Corresponding author. <u>xxxx</u> names indicate co-mentored students.
 
-<span>(Last updated September 2026.)</span>
+<span>(Last updated October 2026.)</span>
 
 <span class='anchor' id='open-source'></span>
 
@@ -245,7 +274,7 @@ Yunpeng Ba, Xi Lin, **Changliang Zhou**, Ruihao Zheng, Zhenkun Wang<sup>&dagger;
 
 <h1>&#127942; Service and Honors</h1>
 
-- **Reviewer**: ICLR 2026, 2027; NeurIPS 2026; IEEE T-ITS; TMLR; IEEE TNNLS.
+- **Reviewer**: ICLR 2026, 2027; NeurIPS 2026 (**Top Reviewer** ); IEEE T-ITS; TMLR; IEEE TNNLS.
 - **University Honor**: Outstanding Postgraduate Student, Southern University of Science and Technology, 2022-2023.
 
 <span class='anchor' id='teaching'></span>
